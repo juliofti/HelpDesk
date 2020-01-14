@@ -1,7 +1,6 @@
 package com.julio.helpdesk.api.entity;
 
 import java.util.Date;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -18,9 +17,9 @@ public class ChangeStatus {
 	private Ticket ticket;
 	
 	@DBRef()
-	private User user;
+	private User userChange;
 	
-	private Date date;
+	private Date dateChangeStatus;
 	
 	private StatusEnum status;
 
@@ -40,20 +39,20 @@ public class ChangeStatus {
 		this.ticket = ticket;
 	}
 
-	public User getUser() {
-		return user;
+	public User getUserChange() {
+		return userChange;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
+	public void setUserChange(User userChange) {
+		this.userChange = userChange;
 	}
 
-	public Date getDate() {
-		return date;
+	public Date getDateChangeStatus() {
+		return dateChangeStatus;
 	}
 
-	public void setDate(Date date) {
-		this.date = date;
+	public void setDateChangeStatus(Date dateChangeStatus) {
+		this.dateChangeStatus = dateChangeStatus;
 	}
 
 	public StatusEnum getStatus() {
