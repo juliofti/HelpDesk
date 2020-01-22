@@ -4,7 +4,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -26,7 +25,6 @@ import com.julio.helpdesk.api.service.UserService;
 @CrossOrigin(origins = "*")
 public class AutheticationRestController {
 
-	@Autowired
 	private AuthenticationManager authenticationManager;
 	
 	@Autowired
