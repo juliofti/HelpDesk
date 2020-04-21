@@ -1,11 +1,11 @@
-package com.julio.helpdesk.api.entity;
+package com.julio.helpdesk.api.security.entity;
 
 import java.util.Date;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.julio.helpdesk.api.entity.enums.StatusEnum;
+import com.julio.helpdesk.api.security.enums.StatusEnum;
 
 @Document
 public class ChangeStatus {

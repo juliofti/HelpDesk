@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.julio.helpdesk.api.entity.User;
+import com.julio.helpdesk.api.security.entity.User;
 import com.julio.helpdesk.api.security.jwt.JwtAuthenticationRequest;
 import com.julio.helpdesk.api.security.jwt.JwtTokenUtil;
 import com.julio.helpdesk.api.security.model.CurrentUser;
@@ -25,6 +25,7 @@ import com.julio.helpdesk.api.service.UserService;
 @CrossOrigin(origins = "*")
 public class AutheticationRestController {
 
+	@Autowired
 	private AuthenticationManager authenticationManager;
 	
 	@Autowired

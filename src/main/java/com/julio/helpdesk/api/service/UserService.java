@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
 
-import com.julio.helpdesk.api.entity.User;
+import com.julio.helpdesk.api.security.entity.User;
 
 @Component
 public interface UserService {

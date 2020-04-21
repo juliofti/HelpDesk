@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.julio.helpdesk.api.entity.User;
 import com.julio.helpdesk.api.response.Response;
+import com.julio.helpdesk.api.security.entity.User;
 import com.julio.helpdesk.api.service.UserService;
 
 @RestController

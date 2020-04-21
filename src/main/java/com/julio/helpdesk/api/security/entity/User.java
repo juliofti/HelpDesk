@@ -1,4 +1,4 @@
-package com.julio.helpdesk.api.entity;
+package com.julio.helpdesk.api.security.entity;
 
 
 import javax.validation.constraints.Size;
@@ -9,7 +9,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.julio.helpdesk.api.entity.enums.ProfileEnum;
+import com.julio.helpdesk.api.security.enums.ProfileEnum;
 
 @Document
 public class User {

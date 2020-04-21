@@ -1,4 +1,4 @@
-package com.julio.helpdesk.api.entity.enums;
+package com.julio.helpdesk.api.security.enums;
 
 public enum PriorityEnum {
 

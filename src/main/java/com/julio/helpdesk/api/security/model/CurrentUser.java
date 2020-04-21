@@ -1,6 +1,6 @@
 package com.julio.helpdesk.api.security.model;
 
-import com.julio.helpdesk.api.entity.User;
+import com.julio.helpdesk.api.security.entity.User;
 
 public class CurrentUser {
 

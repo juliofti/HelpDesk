@@ -1,4 +1,4 @@
-package com.julio.helpdesk.api.entity.enums;
+package com.julio.helpdesk.api.security.enums;
 
 import com.sun.xml.internal.ws.api.streaming.XMLStreamReaderFactory.Default;
 

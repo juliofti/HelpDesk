@@ -1,4 +1,4 @@
-package com.julio.helpdesk.api.entity;
+package com.julio.helpdesk.api.security.entity;
 
 import java.util.Date;
 import java.util.List;
@@ -8,8 +8,8 @@ import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.julio.helpdesk.api.entity.enums.PriorityEnum;
-import com.julio.helpdesk.api.entity.enums.StatusEnum;
+import com.julio.helpdesk.api.security.enums.PriorityEnum;
+import com.julio.helpdesk.api.security.enums.StatusEnum;
 
 @Document
 public class Ticket {

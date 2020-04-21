@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.julio.helpdesk.api.entity.User;
-import com.julio.helpdesk.api.entity.enums.ProfileEnum;
 import com.julio.helpdesk.api.repository.UserRepository;
+import com.julio.helpdesk.api.security.entity.User;
+import com.julio.helpdesk.api.security.enums.ProfileEnum;
 
 @SpringBootApplication
 public class SpringApiRestFullApplication {

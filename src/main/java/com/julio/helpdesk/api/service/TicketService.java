@@ -5,8 +5,8 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
 
-import com.julio.helpdesk.api.entity.ChangeStatus;
-import com.julio.helpdesk.api.entity.Ticket;
+import com.julio.helpdesk.api.security.entity.ChangeStatus;
+import com.julio.helpdesk.api.security.entity.Ticket;
 
 @Component
 public interface TicketService {
