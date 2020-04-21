@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.julio.helpdesk.api.entity.User;
 import com.julio.helpdesk.api.repository.UserRepository;
 import com.julio.helpdesk.api.service.UserService;
 
 
-@Component
+@Service
 public class UserServiceImpl implements UserService {
 
 	@Autowired
