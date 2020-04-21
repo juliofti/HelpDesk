@@ -3,9 +3,11 @@ package com.julio.helpdesk.api.service;
 import java.util.Optional;
 
 import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Component;
 
 import com.julio.helpdesk.api.entity.User;
 
+@Component
 public interface UserService {
 	
 	User findByEmail(String email);
