@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import com.julio.helpdesk.api.repository.ChangeStatusRepository;
 import com.julio.helpdesk.api.repository.TicketRepository;
@@ -14,6 +15,7 @@ import com.julio.helpdesk.api.security.entity.ChangeStatus;
 import com.julio.helpdesk.api.security.entity.Ticket;
 import com.julio.helpdesk.api.service.TicketService;
 
+@Service
 public class TicketServiceImpl implements TicketService {
 
 	
